@@ -1,3 +1,23 @@
-b = {0, 1, 4, 81, "da","ba", 64, 9, 16, 49, 25, 36 }
-for el in b:
-    print(el)
+import random
+
+b = set()
+d = set()
+for i in range(20):
+    c= random.randint(1, 30)
+    e= random.randint(10, 40)
+    b.add(c)
+    d. add(e)
+
+print("b", "-", b)
+print("d", "-", d)
+print(f"miacum- {b | d}")
+print(f"tarberutyun - {b & d}")
+print(f"iraric hanel- {d - b}")
+
+num = int(input("qani mard avelacnel?- "))
+a= set()
+for i in range(num):
+    name=input("Azganun- ")
+    a.add(name)
+print(a)
+
