@@ -10,9 +10,9 @@ for i in range(20):
 
 print("b", "-", b)
 print("d", "-", d)
-print(f"miacum- {b | d}")
-print(f"tarberutyun - {b & d}")
-print(f"iraric hanel- {d - b}")
+print(f"miacum- {b|d}")
+print(f"tarberutyun - {b&d}")
+print(f"iraric hanel- {d-b}")
 
 num = int(input("qani mard avelacnel?- "))
 a = set()
