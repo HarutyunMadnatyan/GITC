@@ -3,8 +3,8 @@ import random
 b = set()
 d = set()
 for i in range(20):
-    c= random.randint(1, 30)
-    e= random.randint(10, 40)
+    c = random.randint(1, 30)
+    e = random.randint(10, 40)
     b.add(c)
     d. add(e)
 
@@ -15,9 +15,8 @@ print(f"tarberutyun - {b & d}")
 print(f"iraric hanel- {d - b}")
 
 num = int(input("qani mard avelacnel?- "))
-a= set()
+a = set()
 for i in range(num):
-    name=input("Azganun- ")
+    name = input("Azganun- ")
     a.add(name)
 print(a)
-

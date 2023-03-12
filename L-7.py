@@ -1,33 +1,30 @@
 
-# n = int(input("qaxaqneri qanak - "))
-# city = set()
+n = int(input("qaxaqneri qanak - "))
+city = set()
 
-# for i in range(n):
-#     c = True
-#     while c:
-#         anna = input("Anna asa qaxaqi anun - ")
-#         if anna in city:
-#             print("TRY ANOTHER")
-            
-#         else:
-#             city.add(anna)
-#             print("OK")
-#             c = False
-#     c = True       
-#     while c:
-#         natasha = input("Natasha asa qaxaqi anun - ")
+for i in range(n):
+    c = True
+    while c:
+        anna = input("Anna asa qaxaqi anun - ")
+        if anna in city:
+            print("TRY ANOTHER")
 
-#         if natasha in city:
-#             print("TRY ANOTHER")
-            
-#         else:
-#             city.add(natasha)
-#             print("OK")
-#             c = False
-# print(city)
+        else:
+            city.add(anna)
+            print("OK")
+            c = False
+    c=True
+    while c:
+        natasha = input("Natasha asa qaxaqi anun - ")
 
+        if natasha in city:
+            print("TRY ANOTHER")
 
-
+        else:
+            city.add(natasha)
+            print("OK")
+            c = False
+print(city)
 
 
 # Books for summer
@@ -43,13 +40,6 @@ print(gradaran)
 for i in range(n):
     amaran_grqer = input("Mutqagrel amran@ handznararvac greri anunner@ - ")
     if amaran_grqer in gradaran:
-        print("YES")
+        print("YES",)
     else:
         print("NO")
-
-
-
-
-
-
-
