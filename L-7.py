@@ -26,6 +26,7 @@ for i in range(n):
             c = False
 print(city)
 
+autopep8 --in-place --aggressive L-7.py
 
 
     
