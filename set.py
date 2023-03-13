@@ -3,8 +3,8 @@ import random
 b = set()
 d = set()
 for i in range(20):
-    c = random.randint(1, 30)
-    e = random.randint(10, 40)
+    c = random.randint(1, 10)
+    e = random.randint(5, 15)
     b.add(c)
     d. add(e)
 
